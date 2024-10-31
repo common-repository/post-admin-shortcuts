@@ -1,0 +1,36 @@
+.column-shortcut 
+{ 
+	width: 25px;
+	text-align:center;
+}
+
+a.pin_link
+{
+	width:16px;
+	height:16px;
+	background:url(pin_disabled.png) no-repeat;
+	float:left;
+}
+
+a.pin_link:hover
+{
+	background:url(pin.png) no-repeat;
+}
+
+a.pin_link.pinned
+{
+	width:16px;
+	height:16px;
+	background:url(pin.png) no-repeat;
+	float:left;
+}
+
+a.star_link.pinned:hover
+{
+	background:url(pin_grey.png) no-repeat;
+}
+
+a.pin_link.loading
+{
+	background:url(loading.gif) no-repeat;
+}
